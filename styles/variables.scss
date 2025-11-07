@@ -1,0 +1,208 @@
+$black: #3d3d3d;
+$dark: #141414;
+$white: #ffffff;
+$grey: #f4f4f4;
+$darkpurple: #EB0043;
+$lightpink: #F0EDFF;
+$yellow: #D4F558;
+$primary: #EB0043;
+$grey_grad: linear-gradient(98deg, #e5e5e5 -1.26%, #cecece 100%);
+$theme_font: "CircularStd";
+$NeueMontreal_font: "NeueMontreal";
+$AloeveraDisplay_font: "AloeveraDisplay";
+$Visby_font: "Visby";
+$Instrument_font: "Instrument Sans", sans-serif;
+$Bebas_font: "Bebas Neue", serif;
+$DMSans_font: "DM Sans", sans-serif;
+$Smox_font: "Sora", sans-serif;
+$Targo_font: "Roboto", sans-serif;
+$Adonai_font: 'AeonikTRIAL';
+$Adonai_font2: 'PowerGrotesk';
+$Sync_font: "Onest", sans-serif;
+$Anear_font: "ClashGrotesk";
+$Bello_font: "Readex Pro", sans-serif;
+$Party_font: "Dela Gothic One", sans-serif;;
+
+// Main Font Family
+@font-face { font-family: "CircularStd"; src: url("/fonts/CircularStd-Book.woff"); font-weight: 400;}
+@font-face { font-family: "CircularStd"; src: url("/fonts/CircularStd-Medium.woff"); font-weight: 500;}
+@font-face { font-family: "CircularStd"; src: url("/fonts/CircularStd-Bold.woff"); font-weight: 700;}
+@font-face { font-family: "CircularStd"; src: url("/fonts/CircularStd-Black.woff"); font-weight: 900;}
+
+// Sky Resources Font Family
+@font-face { font-family: "NeueMontreal"; src: url("/fonts/sky/NeueMontreal-Light.woff"); font-weight: 300;}
+@font-face { font-family: "NeueMontreal"; src: url("/fonts/sky/NeueMontreal-Regular.woff"); font-weight: 400;}
+@font-face { font-family: "NeueMontreal"; src: url("/fonts/sky/NeueMontreal-Medium.woff"); font-weight: 500;}
+@font-face { font-family: "NeueMontreal"; src: url("/fonts/sky/NeueMontreal-Bold.woff"); font-weight: 700;}
+
+// Active SOS Font Family
+@font-face { font-family: "AloeveraDisplay"; src: url("/fonts/activesos/AloeveraDisplay-Light.woff"); font-weight: 300;}
+@font-face { font-family: "AloeveraDisplay"; src: url("/fonts/activesos/AloeveraDisplay-Regular.woff"); font-weight: 400;}
+@font-face { font-family: "AloeveraDisplay"; src: url("/fonts/activesos/AloeveraDisplay-Medium.woff"); font-weight: 500;}
+@font-face { font-family: "AloeveraDisplay"; src: url("/fonts/activesos/AloeveraDisplay-SemiBold.woff"); font-weight: 600;}
+@font-face { font-family: "AloeveraDisplay"; src: url("/fonts/activesos/AloeveraDisplay-Bold.woff"); font-weight: 700;}
+@font-face { font-family: "AloeveraDisplay"; src: url("/fonts/activesos/AloeveraDisplay-Black.woff"); font-weight: 800;}
+@font-face { font-family: "AloeveraDisplay"; src: url("/fonts/activesos/AloeveraDisplay-ExtraBold.woff"); font-weight: 900;}
+
+// KC Elite Font Family , Outdoor Traders , Jebby, Smox, Targo, Synchronicity , Bello, Party Cade
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dela+Gothic+One&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Onest:wght@100..900&family=Readex+Pro:wght@160..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100..800&display=swap');
+
+// Scribble
+@font-face { font-family: "Visby"; src: url("/fonts/scribble/VisbyRegular.woff"); font-weight: 400;}
+@font-face { font-family: "Visby"; src: url("/fonts/scribble/VisbyMedium.woff"); font-weight: 500;}
+@font-face { font-family: "Visby"; src: url("/fonts/scribble/VisbySemibold.woff"); font-weight: 600;}
+@font-face { font-family: "Visby"; src: url("/fonts/scribble/VisbyBold.woff"); font-weight: 700;}
+@font-face { font-family: "Visby"; src: url("/fonts/scribble/VisbyExtraBold.woff"); font-weight: 900;}
+
+// Adonai Consultants
+@font-face { font-family: 'AeonikTRIAL'; font-weight: 300; src: url('/fonts/adonai-consultants/fonts/AeonikTRIAL-Light.woff');}
+@font-face { font-family: 'AeonikTRIAL'; font-weight: 400; src: url('/fonts/adonai-consultants/fonts/AeonikTRIAL-Regular.woff');}
+@font-face { font-family: 'AeonikTRIAL'; font-weight: 500; src: url('/fonts/adonai-consultants/fonts/AeonikMedium.woff');}
+@font-face { font-family: 'AeonikTRIAL'; font-weight: 700; src: url('/fonts/adonai-consultants/fonts/AeonikTRIAL-Bold.woff');}
+@font-face { font-family: 'PowerGrotesk'; font-weight: 400; src: url('/fonts/adonai-consultants/PowerGrotesk-Regular.woff');}
+
+// Anear
+@font-face { font-family: "ClashGrotesk"; src: url("/fonts/anear/ClashGrotesk-Light.woff"); font-weight: 300;}
+@font-face { font-family: "ClashGrotesk"; src: url("/fonts/anear/ClashGrotesk-Regular.woff"); font-weight: 400;}
+@font-face { font-family: "ClashGrotesk"; src: url("/fonts/anear/ClashGrotesk-Medium.woff"); font-weight: 500;}
+@font-face { font-family: "ClashGrotesk"; src: url("/fonts/anear/ClashGrotesk-SemiBold.woff"); font-weight: 600;}
+@font-face { font-family: "ClashGrotesk"; src: url("/fonts/anear/ClashGrotesk-Bold.woff"); font-weight: 700;}
+
+.d {
+  &-inline {
+    display: inline !important
+  }
+  &-inline-block {
+    display: inline-block !important
+  }
+  &-block {
+    display: block !important
+  }
+  &-grid {
+    display: grid !important
+  }
+  &-flex {
+    display: flex !important
+  }
+  &-inline-flex {
+    display: inline-flex !important
+  }
+  &-none {
+    display: none !important
+  }
+  @media (min-width:1400px) {
+    &-xxl-inline {
+      display: inline !important
+    }
+    &-xxl-inline-block {
+      display: inline-block !important
+    }
+    &-xxl-block {
+      display: block !important
+    }
+    &-xxl-grid {
+      display: grid !important
+    }
+    &-xxl-flex {
+      display: flex !important
+    }
+    &-xxl-inline-flex {
+      display: inline-flex !important
+    }
+    &-xxl-none {
+      display: none !important
+    }
+  }
+  @media (min-width:1200px) {
+    &-xl-inline {
+      display: inline !important
+    }
+    &-xl-inline-block {
+      display: inline-block !important
+    }
+    &-xl-block {
+      display: block !important
+    }
+    &-xl-grid {
+      display: grid !important
+    }
+    &-xl-flex {
+      display: flex !important
+    }
+    &-xl-inline-flex {
+      display: inline-flex !important
+    }
+    &-xl-none {
+      display: none !important
+    }
+  }
+  @media (min-width:992px) {
+    &-lg-inline {
+      display: inline !important
+    }
+    &-lg-inline-block {
+      display: inline-block !important
+    }
+    &-lg-block {
+      display: block !important
+    }
+    &-lg-grid {
+      display: grid !important
+    }
+    &-lg-flex {
+      display: flex !important
+    }
+    &-lg-inline-flex {
+      display: inline-flex !important
+    }
+    &-lg-none {
+      display: none !important
+    }
+  }
+  @media (min-width:768px) {
+    &-md-inline {
+      display: inline !important
+    }
+    &-md-inline-block {
+      display: inline-block !important
+    }
+    &-md-block {
+      display: block !important
+    }
+    &-md-grid {
+      display: grid !important
+    }
+    &-md-flex {
+      display: flex !important
+    }
+    &-md-inline-flex {
+      display: inline-flex !important
+    }
+    &-md-none {
+      display: none !important
+    }
+  }
+  @media (min-width:576px) {
+    &-sm-inline {
+      display: inline !important
+    }
+    &-sm-inline-block {
+      display: inline-block !important
+    }
+    &-sm-block {
+      display: block !important
+    }
+    &-sm-grid {
+      display: grid !important
+    }
+    &-sm-flex {
+      display: flex !important
+    }
+    &-sm-inline-flex {
+      display: inline-flex !important
+    }
+    &-sm-none {
+      display: none !important
+    }
+  }
+} 

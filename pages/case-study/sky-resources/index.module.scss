@@ -1,0 +1,117 @@
+@import "../../../styles/variables.scss";
+
+.hero_section {
+    text-align: center;
+    height: auto;
+    padding: 2vw 0 0;
+    background-color: #2DABE81A;
+    @media (max-width: 991px) {
+        padding: 20px 0 0;
+    }
+    .logo {
+        width: 18vw;
+        margin-bottom: 1vw;
+        @media (max-width: 991px) {
+            width: 140px;
+            margin-bottom: 10px;
+        }
+    }
+    
+    .banimg {
+        max-width: 60vw;
+        margin-top: 2vw;
+        @media (max-width: 767px) {
+            max-width: 90%;
+            margin-top: 20px;
+        }
+    }
+}
+
+.btn_main {
+    background: linear-gradient(96deg, #2DABE8 -37.19%, #00004E 100%);
+    color: #fff;
+    &:hover {
+        background: linear-gradient(96deg, #00004E -37.19%, #2DABE8 100%);
+        color: #fff;
+    }
+}
+
+.para {
+    color: #505050;
+    margin-bottom: 1.5vw;
+    @media (max-width: 767px) {
+       margin-bottom: 10px;
+    }
+}
+.heading {
+    color: #00004E;
+    font-weight: 500;
+    span {
+        color: #2DABE8;
+        @media (max-width: 991px) {
+            display: block;
+        }
+    }
+    
+    @media (min-width: 992px) {
+        font-size: clamp(2.2rem, 4.2vw, 6.5rem);
+    }
+    
+    @media (max-width: 991px) {
+        br {
+            display: none;
+        }
+    }
+}
+.bgelem {
+    position: absolute;
+    max-width: 40vw;
+    margin-top: -3vw;
+    @media (max-width: 991px) {
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
+.bg_theme {
+    background: linear-gradient(96deg, #2DABE8 -37.19%, #00004E 100%);
+    .heading {
+        color: $white;
+    }
+    .para {
+        color: $white;
+    }
+}
+.bg_blue {
+    background-color: #2DABE81A;
+    position: relative;
+}
+.branding_sec {
+    .heading {
+        margin-bottom: 2vw;
+        @media (max-width: 767px) {
+            margin-bottom: 20px;
+         }
+    }
+}
+.bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.shadowimg {
+    margin-right: -0vw;
+    @media (min-width: 992px) {
+        min-width: 40vw;
+        margin: -3vw 0;
+    }
+}
+
+.ctasec {
+    .heading {
+        color: #000;
+    }
+}

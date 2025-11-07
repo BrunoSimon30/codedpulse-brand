@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    // "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    // "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@/*": ["./*"]
+    }
+    
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Home/HeroSection/index.js", "components/Home/HeroSection/Outlines.jsx", "components/HeroModelScene/index.js", "components/FluidHover/index.tsx", "components/MatterCanvas/index.tsx"],
+  "exclude": ["node_modules"]
+}

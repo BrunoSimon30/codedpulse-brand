@@ -1,0 +1,106 @@
+@import "../../../styles/variables.scss";
+
+.hero_section {
+    text-align: center;
+    height: auto;
+    padding: 2vw 0 0;
+    background-color: #D81E290D;
+    @media (max-width: 991px) {
+        padding: 20px 0 0;
+    }
+    .logo {
+        width: 5vw;
+        margin-bottom: 1vw;
+        @media (max-width: 991px) {
+            width: 70px;
+            margin-bottom: 10px;
+        }
+    }
+    
+    .banimg {
+        max-width: 60vw;
+        margin-top: 2vw;
+        @media (max-width: 767px) {
+            max-width: 90%;
+            margin-top: 20px;
+        }
+    }
+}
+
+.btn_main {
+    background: #010101;
+    font-weight: 400;
+    color: $white;
+    &:hover {
+        background: #000000;
+        color: $white;
+    }
+}
+
+.para {
+    color: #505050;
+    margin-bottom: 1.5vw;
+    @media (max-width: 767px) {
+        margin-bottom: 10px;
+     }
+}
+.heading {
+    color: #1E1E1E;
+    font-weight: 500;
+    font-family: $DMSans_font;
+    span {
+        font-weight: 700;
+        color: #118FFF;
+    }
+    
+    @media (min-width: 992px) {
+        font-size: clamp(2.2rem, 4.2vw, 6.5rem);
+    }
+    
+    @media (max-width: 991px) {
+        br {
+            display: none;
+        }
+    }
+}
+.bgelem {
+    position: absolute;
+    max-width: 40vw;
+    margin-top: -3vw;
+    @media (max-width: 991px) {
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
+.bg_theme {
+    background: #4899E2;
+    position: relative;
+    .heading,p {
+        color: #fff;
+    }
+    
+}
+.bg_blue {
+    background: linear-gradient(105deg, #ffeee383 -4.86%, #ffccad88 133.24%);
+    position: relative;
+}
+.branding_sec {
+    .heading {
+        margin-bottom: 2vw;
+    }
+}
+.bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left bottom;
+}
+.ctasec {
+    .heading {
+        color: #000;
+    }
+}

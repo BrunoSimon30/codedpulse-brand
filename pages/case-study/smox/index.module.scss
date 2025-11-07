@@ -1,0 +1,153 @@
+@import "../../../styles/variables.scss";
+
+.hero_section {
+    height: auto;
+    padding: 6vw 0;
+    background-color: #FFFBE7;
+    @media (max-width: 991px) {
+        padding: 20px 0;
+    }
+    
+    .banimg {
+        max-width: 60vw;
+        width: 100%;
+        @media (max-width: 767px) {
+          max-width: 100%;
+        }
+    }
+}
+
+.btn_main {
+    background: #010101;
+    font-weight: 400;
+    color: $white;
+    &:hover {
+        background: #000000;
+        color: $white;
+    }
+}
+
+.para {
+    color: #505050;
+    margin-bottom: 1.5vw;
+    @media (max-width: 767px) {
+        margin-bottom: 10px;
+     }
+}
+.heading {
+    color: #1E1E1E;
+    font-weight: 600;
+    span {
+        color: #eeca54;
+       
+    }
+    
+    @media (min-width: 992px) {
+        font-size: clamp(2.2rem, 4.2vw, 6.5rem);
+    }
+    
+    @media (max-width: 991px) {
+        br {
+            display: none;
+        }
+    }
+}
+
+.bg_theme {
+    position: relative;
+    &:before {
+        content: '';
+        background: #FFFBE7;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 22vw;
+        border-radius: 3vw;
+        @media (max-width: 991px) {
+            left: 0;
+            right: 0;
+            border-radius: 0;
+        }
+    }    
+    >div {
+        position: relative;
+        z-index: 1;
+    }
+}
+.bg_theme_right {
+    position: relative;
+    &:before {
+        content: '';
+        background: #FFFBE7;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 22vw;
+        border-radius: 3vw;
+        @media (max-width: 991px) {
+            left: 0;
+            right: 0;
+            border-radius: 0;
+        }
+    }    
+    >div {
+        position: relative;
+        z-index: 1;
+    }
+}
+
+
+.ctasec {
+    .heading {
+        color: #000;
+    }
+}
+
+.cenimg {
+    border-radius: 3vw;
+    background: #FFFBE7;
+    margin-top: 4vw;
+    img {
+        margin: -3vw 0;
+    }
+}
+
+.store {
+    display: flex;
+    gap: 1.2vw;
+    margin-top: 2vw;
+    position: relative;
+    z-index: 1;
+    img {
+        width: 10vw;
+        @media (max-width: 767px) {
+            width: 120px;
+        }
+    }
+}
+
+.stacks {
+    text-align: center;
+    .box {
+        background: #FFFBE7;
+        border-radius: 1vw;
+        text-align: left;
+        padding: 1.4vw;
+        @media (max-width: 767px) {
+            padding: 14px;
+        }
+        .title {
+            font-size: clamp(1.1rem, 1.4vw, 4rem);
+        }
+        img {
+            mix-blend-mode: multiply;
+            height: 3.5vw;
+            margin-bottom: 1vw;
+            @media (max-width: 767px) {
+                height: 40px;
+            }
+        }
+    }
+}

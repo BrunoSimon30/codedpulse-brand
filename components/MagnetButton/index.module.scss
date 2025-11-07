@@ -1,0 +1,129 @@
+@import "/styles/variables.scss";
+
+.btnwrap {
+  overflow: hidden;
+}
+.mg_btn {
+  overflow: hidden;
+    position: relative;
+    z-index: 99;
+    border: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    &:focus {
+      outline: none;
+    }
+ 
+  .bgtext {
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    background: $darkpurple;
+    border-color: $darkpurple;
+    color: #ffffff;
+    border: 0px;
+    transition: all 0.5s;
+    display: block;
+    padding: 12px 20px;
+    padding-right: 64px;
+    position: relative;
+    opacity: 0;
+    
+    @media (max-width: 767px) {
+      font-size: 14px;
+      opacity: 1;
+      padding: 10px 16px;
+      padding-right: 44px;
+    }
+  }
+  span {
+    display: block;
+    position: relative;
+    // mix-blend-mode: difference;
+    z-index: 10;
+  }
+  .arrow {
+    background: $primary;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    position: absolute;
+    left: 4px;
+    z-index: 11;
+    color: #fff;
+    // transition: all .5s;
+   
+    @media (max-width: 767px) {
+      height: 34px;
+      width: 34px;
+      font-size: 18px;
+      left: auto;
+      right: 4px;
+      background: $white;
+      color: $black;
+    }
+  }
+
+  &:hover {
+    .bgtext {
+      opacity: 1;
+    }
+    .arrow {
+      background: $white;
+      color: $black;
+      margin-left: 100%;
+      transform: translateX(-55px);
+      @media (max-width: 767px) {
+        transform: translateX(-48px);
+      }
+     
+    }
+    &::before {
+      transform: translate3d(-50%, 0%, 0) scale(3);
+    }
+  
+  }
+  // &::before,
+  // &::after {
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  // }
+  // &::before {
+  //   content: "";
+  //   background: $yellow;
+  //   width: 50%;
+  //   height: 100%;
+  //   top: 0;
+  //   left: 50%;
+  //   border-radius: 100%;
+  //   transform: translate3d(-50%, 100%, 0);
+  //   transition: transform 0.5s cubic-bezier(0.1, 0, 0.3, 1);
+  // }
+}
+
+@keyframes MoveScaleUpInitial {
+  to {
+    transform: translate3d(0, -105%, 0) scale3d(1, 2, 1);
+    opacity: 0;
+  }
+}
+
+@keyframes MoveScaleUpEnd {
+  from {
+    transform: translate3d(0, -100%, 0) scale3d(1, 2, 1);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}

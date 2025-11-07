@@ -1,0 +1,120 @@
+@import "../../../styles/variables.scss";
+
+.hero_section {
+    height: auto;
+    padding: 6vw 0 12vw 0;
+    background: #FFE5BA;
+
+    @media (max-width: 991px) {
+        padding: 20px 0;
+    }
+
+    .logo {
+        width: 10vw;
+        margin-bottom: 1vw;
+    }
+
+    .banimg {
+        width: 104%;
+        position: relative;
+        left: -4vw;
+        @media (max-width: 767px) {
+            width: 100%;
+            left: 0;
+        }
+    }
+
+    .heading {
+        color: #1E1E1E;
+        font-weight: 700;
+    }
+}
+
+.btn_main {
+    background: #B67B16;
+    font-weight: 400;
+    color: $white;
+
+    &:hover {
+        background: #B67B16;
+        color: $white;
+    }
+}
+
+.para {
+    color: #505050;
+    margin-bottom: 1.5vw;
+
+    @media (max-width: 767px) {
+        margin-bottom: 10px;
+    }
+}
+
+
+.heading {
+    color: #B67B16;
+    font-weight: 600;
+    span {
+        color: #B67B16;
+    }
+    @media (min-width: 992px) {
+        font-size: clamp(2.2rem, 4.2vw, 6.5rem);
+    }
+
+    @media (max-width: 991px) {
+        br {
+            display: none;
+        }
+    }
+}
+
+.bg_theme {
+    position: relative;
+    background: #FFE5BA;
+}
+
+.ctasec {
+    .heading {
+        color: #000;
+    }
+}
+
+.abt_sec {
+    margin-top: -7vw;
+    z-index: 999;
+    position: relative;
+    .heading {
+        color: #1E1E1E;
+    }
+    @media (max-width: 991px) {
+        margin-top: 20px;
+    }
+    .abt_box {
+        padding: 5vw;
+        border-radius: 20px;
+        background: #FFF;
+        box-shadow: 0px 14px 44px 0px rgba(0, 0, 0, 0.15);
+    }
+}
+
+.box_row {
+    .box {
+        border-radius: 20px;
+        background: #FFF7EA;
+        padding: 1.5vw;
+        text-align: center;
+        h4 {
+            font-weight: 600;
+            font-size: clamp(1.1rem, 1.1vw, 3rem);
+            color: #BB2033 ;   
+            margin-bottom: 0;
+        }
+    }
+}
+.minusleft {
+    width: 100%;
+    @media (min-width: 992px) {
+        width: 50vw;
+        margin-left: -14vw;
+    }
+}
