@@ -122,8 +122,8 @@ function BottomForm() {
     <>
       <form action="">
         <div className="">
-          <h3 className="fw-normal">I&apos;m interested in...</h3>
-          <div className={`btn_checkboxes`}>
+          {/* <h3 className="fw-normal">I&apos;m interested in...</h3> */}
+          {/* <div className={`btn_checkboxes`}>
             <div className={"chk_item"}>
               <input
                 type="checkbox"
@@ -215,22 +215,10 @@ function BottomForm() {
                 <span>Motion Design</span>
               </label>
             </div>
-          </div>
+          </div> */}
           {errors.services && <div className="error">{errors.services}</div>}
         </div>
-        <div className="form-group">
-          <input
-            type="text"
-            value={fullName}
-            onChange={handleFullName}
-            className="form-control"
-            placeholder="Name*"
-            name=""
-            id=""
-          />
-          <span className="fm-line"></span>
-        </div>
-        {errors.fullName && <div className="error">{errors.fullName}</div>}
+    
         <div className="form-group">
           <input
             type="email"
@@ -259,6 +247,22 @@ function BottomForm() {
         {errors.phoneNumber && (
           <div className="error">{errors.phoneNumber}</div>
         )}
+        
+        <div className="form-group">
+          <input
+            type="text"
+            value={fullName}
+            onChange={handleFullName}
+            className="form-control"
+            placeholder="Business Name (Optional)"
+            name=""
+            id=""
+          />
+          <span className="fm-line"></span>
+        </div>
+        {errors.fullName && <div className="error">{errors.fullName}</div>}
+
+
         <div className="form-group">
           <textarea
             name=""

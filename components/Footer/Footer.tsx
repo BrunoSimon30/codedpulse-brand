@@ -31,7 +31,7 @@ function Footer() {
                 <Link href={"/about-us"} className="">About</Link>
                 <Link href={"/solutions"} className="">Solutions</Link>
                 <Link href={"/projects"} className="">Projects</Link>
-                <Link href={"/insights"} className="">Insights</Link>
+                {/* <Link href={"/insights"} className="">Insights</Link> */}
                 <Link href={"/contact-us"} className="">Connect</Link>
               </div>
             </Col>
@@ -49,9 +49,9 @@ function Footer() {
                   <i className="icon-Vector-29"></i>
                   <p>222 South Main Street, Suite 500 Salt Lake City, UT 84101, USA</p>
                 </Link>
-                <Link href={"#"} target="_blank" className="contact">
+                {/* <Link href={"#"} target="_blank" className="contact">
                   <img src={"/images/trustpilot.png"} className="trust" alt="" />
-                </Link>
+                </Link> */}
 
               </div>
             </Col>

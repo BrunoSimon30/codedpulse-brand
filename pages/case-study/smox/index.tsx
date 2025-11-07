@@ -76,7 +76,7 @@ export default function Smox() {
                 <h2 className={`heading ${styles.heading}`}>Client <span>Brief</span></h2>
                 <p className={`para ${styles.para}`}>Our client envisioned Smox as a revolutionary mobile app that leverages advanced technology to improve salon workflow. The primary requirements included incorporating avant-garde features to facilitate easy appointment setting, increase customer outreach, and promote business success.</p>
                 <p className={`para ${styles.para}`}>By serving specifically salon professionals and their service seekers, the client wanted us to create a user-friendly booking system that connects users with the services they want.</p>
-                <p className={`para ${styles.para}`}>They aimed for a creative solution that elevates the overall user experience while complying with the industry's unique needs</p>
+                <p className={`para ${styles.para}`}>They aimed for a creative solution that elevates the overall user experience while complying with the industry`&apos;`s unique needs</p>
               </Col>
               <Col lg="6" className="mx-auto align-self-center">
                 <Image src="/images/case-study/smox/group48098807.png" className={`img-fluid w-100 mt-lg-0 mt-3`} alt="" />
@@ -153,7 +153,7 @@ export default function Smox() {
               <Col lg="6" className="align-self-center me-auto">
                 <h2 className={`heading ${styles.heading}`}>A Final <span>Product</span> That Exceeded Expectations</h2>
                 <p className={`para ${styles.para}`}>Smox is now a fully functional, user-friendly platform that has revolutionized how services are booked. Salon service seekers can find providers, compare prices, and book appointments, while professionals can benefit from resourceful tools to manage their business operations, all done very conveniently.</p>
-                <p className={`para ${styles.para}`}>The final product satisfied the client, noting the platform's sleek design, easy navigation, and robust functionality.</p>
+                <p className={`para ${styles.para}`}>The final product satisfied the client, noting the platform`&apos;`s sleek design, easy navigation, and robust functionality.</p>
               </Col>
               <Col lg="5" className="ms-auto align-self-center">
                 <Image src="/images/case-study/smox/group48098823.png" className={`img-fluid w-100 mt-lg-0 mt-3`} alt="" />
@@ -169,8 +169,8 @@ export default function Smox() {
               </Col>
               <Col lg="6" className="align-self-center me-auto ">
                 <h2 className={`heading ${styles.heading}`}>The <span>Results</span></h2>
-                <p className={`para ${styles.para}`}>Smox is a stellar example of Suitch’s expertise in developing and designing high-performance digital tools.</p>
-                <p className={`para ${styles.para}`}>With proven development and marketing approaches taken by Suitch experts, Smox has become the best solution and has received positive feedback from its users, with many praising the streamlined booking process and reliable payment system.</p>
+                <p className={`para ${styles.para}`}>Smox is a stellar example of coded’s expertise in developing and designing high-performance digital tools.</p>
+                <p className={`para ${styles.para}`}>With proven development and marketing approaches taken by coded experts, Smox has become the best solution and has received positive feedback from its users, with many praising the streamlined booking process and reliable payment system.</p>
                 <div className={styles.store}>
                   <Link href={'#'}>
                     <Image src="/images/case-study/smox/apple.png" className={``} alt="" />
@@ -220,7 +220,7 @@ export default function Smox() {
                 <h2 className={`heading ${styles.heading}`}>We’re Ready</h2>
               </Col>
               <Col lg="5" className="text-lg-end align-self-center">
-                <Link href={'#'} onClick={()=>setModalShow(true)} className="btn btn-purple">Let’s Suitch</Link>
+                <Link href={'#'} onClick={()=>setModalShow(true)} className="btn btn-purple">Get In touch</Link>
               </Col>
             </Row>
           </Container>

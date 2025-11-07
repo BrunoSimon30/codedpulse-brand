@@ -308,7 +308,7 @@ export default function PartyCade() {
             </Col>
             <Col lg="5" className="text-lg-end align-self-center">
               <Link href={"#"} onClick={()=>setModalShow(true)} className="btn btn-purple">
-                Let’s Suitch
+                Get in Touch
               </Link>
             </Col>
           </Row>

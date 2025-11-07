@@ -143,7 +143,7 @@ export default function SkyResources() {
                 <h2 className={`heading ${styles.heading}`}>We’re Ready</h2>
               </Col>
               <Col lg="5" className="text-lg-end align-self-center">
-               <Link href={'javascript:void(0)'} onClick={()=>setModalShow(true)} className="btn btn-purple">Let’s Suitch</Link>
+               <Link href={'javascript:void(0)'} onClick={()=>setModalShow(true)} className="btn btn-purple">get in touch</Link>
               </Col>
             </Row>
           </Container>

@@ -62,7 +62,7 @@ export default function Syncronicity() {
               <Col lg="5" className="align-self-center me-auto ">
                 <h2 className={`heading ${styles.heading}`}>Challenges & <span>Solutions</span> </h2>
                 <p className={`para ${styles.para}`}>Turning the concept behind SYNCronicty into a functional app involved several challenges, including building a highly optimized matching algorithm focused on shared values and common interests. Further significant hurdles were posed by the need for user privacy and creating an interface that caters to diverse demographics, demanding a perfect blend of usability and security.</p>
-                <p className={`para ${styles.para}`}>Suitch’s dedicated team expertly addressed these challenges. We conducted comprehensive market research to craft a value-driven matching system and designed an intuitive interface that drives authentic and impactful interactions. We also implemented end-to-end encryption to protect user data and foster trust.</p>
+                <p className={`para ${styles.para}`}>coded’s dedicated team expertly addressed these challenges. We conducted comprehensive market research to craft a value-driven matching system and designed an intuitive interface that drives authentic and impactful interactions. We also implemented end-to-end encryption to protect user data and foster trust.</p>
               </Col>
               <Col lg="7" className="mx-auto align-self-center">
                 <Image src="/images/case-study/syncronicity/psd-31.png" className={`img-fluid w-100 mt-lg-0 mt-3`} alt="" />
@@ -153,10 +153,10 @@ export default function Syncronicity() {
                 <Image src="/images/case-study/syncronicity/group11712751714.png" className={`img-fluid w-100 mb-lg-0 mb-3`} alt="" />
               </Col>
               <Col lg="6" className="align-self-center me-auto">
-                <h2 className={`heading ${styles.heading}`}>SYNCronicty- Showcasing Suitch’s <span>Expertise</span></h2>
+                <h2 className={`heading ${styles.heading}`}>SYNCronicty- Showcasing coded’s <span>Expertise</span></h2>
                 <p className={`para ${styles.para}`}>SYNCronicty’s intuitive design and innovative matching system empower users to form and get involved in genuine relationships based on mutual values and interests. The secure and effective communication channels ensure mental tranquility, creating an environment where users feel safe to explore compatible individuals.</p>
                 <p className={`para ${styles.para}`}>SYNCronicty has become a reliable solution in the digital dating landscape, revolutionizing how individuals meet and connect. This platform has prioritized authenticity and meaningful interactions, redefining the path to sincere bonds and helping users navigate their journey with certainty and grace.</p>
-                <p className={`para ${styles.para}`}>SYNCronicty stands as a testament to Suitch’s expertise in delivering innovative digital solutions.</p>
+                <p className={`para ${styles.para}`}>SYNCronicty stands as a testament to coded’s expertise in delivering innovative digital solutions.</p>
               </Col>
             </Row>
           </Container>
@@ -170,7 +170,7 @@ export default function Syncronicity() {
                 <h2 className={`heading ${styles.heading}`}>We’re Ready</h2>
               </Col>
               <Col lg="5" className="text-lg-end align-self-center">
-                <Link href={'#'} onClick={()=>setModalShow(true)} className="btn btn-purple">Let’s Suitch</Link>
+                <Link href={'#'} onClick={()=>setModalShow(true)} className="btn btn-purple">get in touch</Link>
               </Col> 
             </Row>
           </Container>

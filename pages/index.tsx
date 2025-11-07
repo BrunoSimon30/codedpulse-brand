@@ -223,7 +223,7 @@ export default function Home() {
             <BottomForm />
           </Container>
         </section>
-        <OurInsights2 />
+        {/* <OurInsights2 /> */}
         <NewsSec />
       </section>
     </>

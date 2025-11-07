@@ -117,12 +117,14 @@ function Header() {
                   Projects
                 </Nav.Link>
 
-                <Nav.Link
+                {/* <Nav.Link
                   href={"/insights"}
                   className={splitLocation[1] === "insights" ? "active" : ""}
                 >
                   Insights
-                </Nav.Link>
+                </Nav.Link> */}
+
+                
                 <Nav.Link
                   href={"/contact-us"}
                   className={`${splitLocation[1] === "contact-us" ? "active" : ""
@@ -135,9 +137,9 @@ function Header() {
           </Offcanvas>
           <div className="flexhead">
             <span onClick={() => setModalShow(true)} className="btn btn-purple">
-              Suitch Now
+              Get in Touch
             </span>
-            <ThemeSwitcher />
+            {/* <ThemeSwitcher /> */}
             <button
               type="button"
               onClick={toggleShow}

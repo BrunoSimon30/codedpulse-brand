@@ -100,6 +100,10 @@ export default function AboutUs() {
                   customized marketing campaign to use your audience to make a
                   positive move.
                 </p>
+
+                <p>
+                  Coded Pulse is proudly powered by <a href="https://visualqube.com/" className="text-dark" target="_blank"><b>Visual Qube</b></a>, its parent company specializing in innovative digital solutions and product development.
+                </p>
                 <MagnetButton text="Let's talk now" href="/contact-us" />
               </Col>
             </Row>
@@ -215,12 +219,12 @@ export default function AboutUs() {
           </Container>
         </section>
         <Testimonial />
-        <section className="section-padding pb-0">
+        {/* <section className="section-padding pb-0">
           <Container>
             <div className="partners">
-              {/* <Link href="#">
+              <Link href="#">
                 <img src="/images/clutch.svg" alt="" />
-              </Link> */}
+              </Link>
               <Link href="https://www.designrush.com/agency/mobile-app-design-development/new-jersey" target="_blank">
                 <img src="/images/designrush.svg" alt="" />
               </Link>
@@ -229,7 +233,7 @@ export default function AboutUs() {
               </Link>
             </div>
           </Container>
-        </section>
+        </section> */}
       </section>
     </>
   );

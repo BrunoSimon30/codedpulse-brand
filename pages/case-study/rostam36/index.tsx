@@ -75,7 +75,7 @@ export default function Rostam36() {
               <Col lg="6" className="align-self-center me-auto ">
                 <h2 className={`heading ${styles.heading}`}>About Rostam36</h2>
                 <p className={`para ${styles.para}`}>Kalphabet36 allows users to communicate effectively across language boundaries. It translates between English, Persian, and Finglish using numerical sequences and algebraic formulas, making written messages clear and easy to comprehend. This opens new opportunities for communication, accessible to all users, regardless of their language abilities.</p>
-                <p className={`para ${styles.para}`}>Suitch developed an intuitive interface and an efficient translation mechanism, creating a positive user experience that aligns with the client’s vision for improved cross-language communication.</p>
+                <p className={`para ${styles.para}`}>coded pulse developed an intuitive interface and an efficient translation mechanism, creating a positive user experience that aligns with the client’s vision for improved cross-language communication.</p>
 
               </Col>
               <Col lg="6" className="align-self-center">
@@ -94,7 +94,7 @@ export default function Rostam36() {
               <Col lg="6" className="align-self-center me-auto ">
                 <h2 className={`heading ${styles.heading}`}>Development <br /> Hurdles</h2>
                 <p className={`para ${styles.para}`}>Creating an accurate translation algorithm posed a challenge. Translating among three languages involved addressing each language's grammar and syntax, complicating the process and requiring thorough testing.</p>
-                <p className={`para ${styles.para}`}>Designing a user-friendly interface was also difficult, as Suitch aimed to serve both seasoned linguists and beginners while maintaining strong functionality.</p>
+                <p className={`para ${styles.para}`}>Designing a user-friendly interface was also difficult, as coded pulse aimed to serve both seasoned linguists and beginners while maintaining strong functionality.</p>
                 <p className={`para ${styles.para}`}>Additionally, integrating numerical sequences and algebraic formulas into translations added complexity, necessitating careful coding to ensure efficient performance.</p>
 
               </Col>
@@ -106,7 +106,7 @@ export default function Rostam36() {
             <Row>
               <Col lg="6" className="align-self-center me-auto ">
                 <h2 className={`heading ${styles.heading}`}>Solutions Provided</h2>
-                <p className={`para ${styles.para}`}>Suitch effectively tackled the challenges in developing Kalphabet36. We enhanced the translation algorithm through linguistic analysis and machine learning techniques to improve accuracy across the three languages. User testing and feedback helped us create an intuitive interface that met the needs of both experienced linguists and novices.</p>
+                <p className={`para ${styles.para}`}>coded pulse effectively tackled the challenges in developing Kalphabet36. We enhanced the translation algorithm through linguistic analysis and machine learning techniques to improve accuracy across the three languages. User testing and feedback helped us create an intuitive interface that met the needs of both experienced linguists and novices.</p>
                 <p className={`para ${styles.para}`}>We integrated numerical sequences and algebraic formulas, optimizing encoding and decoding processes for greater efficiency.</p>
               </Col>
               <Col lg="6" className="me-auto align-self-center">
@@ -137,7 +137,7 @@ export default function Rostam36() {
             <Row>
               <Col xl="8" className="text-center mx-auto">
                 <h2 className={`heading ${styles.heading}`}>Project Outcomes</h2>
-                <p className={`para ${styles.para}`}>Kalphabet36 showcases Suitch's success in project delivery, boosting user engagement and satisfaction. The platform enhances community interaction by bridging language gaps, attracting a diverse user base and promoting clear communication.</p>
+                <p className={`para ${styles.para}`}>Kalphabet36 showcases coded pulse's success in project delivery, boosting user engagement and satisfaction. The platform enhances community interaction by bridging language gaps, attracting a diverse user base and promoting clear communication.</p>
               </Col>
             </Row>
             <Row>
@@ -156,7 +156,7 @@ export default function Rostam36() {
                 <h2 className={`heading ${styles.heading}`}>We’re Ready</h2>
               </Col>
               <Col lg="5" className="text-lg-end align-self-center">
-                <Link href={'#'} onClick={() => setModalShow(true)} className="btn btn-purple">Let’s Suitch</Link>
+                <Link href={'#'} onClick={() => setModalShow(true)} className="btn btn-purple">get in touch</Link>
               </Col>
             </Row>
           </Container>

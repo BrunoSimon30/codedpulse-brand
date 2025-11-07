@@ -40,7 +40,7 @@ export const portfolioData = [
         poster: "/images/portfolio-banner/sky.jpg",
         src: "/media/projects/sky_resources.webm",
         bannerImage: "/images/portfolio-banner/sky.jpg",
-        description: "Sky Resources, conceived and rolled out by Suitch, reflects our firm commitment to building innovative solutions for event management. Our team took this as a challenge and meticulously designed the app that streamlines complex event scheduling, integrates seamlessly with calendars, and manages contacts and documents efficiently. Overall, we successfully met the client’s requirements – from conceptualization to deployment – and ensured the app’s target audiences have a powerful tool for both personal and professional event planning."
+        description: "Sky Resources, conceived and rolled out by Coded Pulse, reflects our firm commitment to building innovative solutions for event management. Our team took this as a challenge and meticulously designed the app that streamlines complex event scheduling, integrates seamlessly with calendars, and manages contacts and documents efficiently. Overall, we successfully met the client’s requirements – from conceptualization to deployment – and ensured the app’s target audiences have a powerful tool for both personal and professional event planning."
     },
     {
 

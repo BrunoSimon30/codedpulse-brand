@@ -42,8 +42,10 @@ function HeroModelScene(props) {
       {...props}
       style={{
         borderRadius: "25px",
+        // background:
+        //   "linear-gradient(163deg, rgba(38, 34, 97, 0.84) 11.51%, rgba(78, 70, 199, 0.54) 164.19%)",
         background:
-          "linear-gradient(163deg, rgba(38, 34, 97, 0.84) 11.51%, rgba(78, 70, 199, 0.54) 164.19%)",
+          "#eb0043",
       }}
     >
       {/* <color attach="background" args={["##EAE7FF"]} /> */}

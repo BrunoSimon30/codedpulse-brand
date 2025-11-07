@@ -26,7 +26,7 @@ export default function PrivacyPolicy() {
         <section className="section-padding policy-sec">
           <Container>
             <h4 className="title">Effective Date: 21-June-2024</h4>
-            <p className="para">Coded Pulse is a responsible digital platform that understands and values users’ privacy by protecting the personal information they provide us through the website <a href="https://thesuitch.com/">thesuitch.com</a>. This information becomes accessible to Coded Pulse when visitors visit, access, or use the website.</p>
+            <p className="para">Coded Pulse is a responsible digital platform that understands and values users’ privacy by protecting the personal information they provide us through the website <a href="https://codedpulse.co/">codedpulse.co</a>. This information becomes accessible to Coded Pulse when visitors visit, access, or use the website.</p>
             <p className="para">The main objective of this Privacy Policy is to clearly define what information we collect, its nature, purpose of collection, and the rights of Coded Pulse and website users to the information collected. A user’s access to this website will imply that he/she agrees to how and what collect and how and when we use those details.</p>
             <p className="para">Here, “we,” “us,” “our,” “website,” and “company” refer to Coded Pulse, “you” and ““your” refer to Users, and “Privacy Policy” refer to Privacy Policy.    </p>
             <h4 className="title">Terms and Conditions</h4>

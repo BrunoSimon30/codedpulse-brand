@@ -164,7 +164,7 @@ export default function AnEar() {
                 <h2 className={`${styles.heading}`}>We’re Ready</h2>
               </Col>
               <Col lg="5" className="text-lg-end align-self-center">
-                <Link href={'#'} onClick={()=>setModalShow(true)} className="btn btn-purple">Let’s Suitch</Link>
+                <Link href={'#'} onClick={()=>setModalShow(true)} className="btn btn-purple">Get in Touch</Link>
               </Col>
             </Row>
           </Container>

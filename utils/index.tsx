@@ -88,7 +88,7 @@ export const ProjectsData: ProjectsDataProps[] = [
     bgBanner:"/images/portfolio-banner-bg/sky-resources.png",
     backgroundColor: "#d2f0ff",
     projectDescription:
-      "Sky Resources, conceived and rolled out by Suitch, reflects our firm commitment to building innovative solutions for event management. Our team took this as a challenge and meticulously",
+      "Sky Resources, conceived and rolled out by Coded Pulse, reflects our firm commitment to building innovative solutions for event management. Our team took this as a challenge and meticulously",
     projectImage: "/images/project-images/sky-resouces.png",
     title: "Skyresources",
     projectsUtilData: [
